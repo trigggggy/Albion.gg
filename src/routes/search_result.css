@@ -1,0 +1,18 @@
+body{
+    background: #282c34;
+}
+
+p{
+    color: white;
+}
+div{
+    align-items: center;
+}
+
+.info{
+  display: inline-block;
+  width: 35em;
+}
+.list{
+  display: inline-block;
+}

@@ -1,0 +1,29 @@
+.header {
+    background: white;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.item {
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: table-cell;
+    color: #282c34;
+    text-decoration: none;
+    text-decoration-color: #282c34;
+    font-size: 0.8rem;
+}
+
+.item:hover {
+    background: #5a5b5f;
+    text-decoration: none;
+    color: white;
+}
+
+.item:active, .item.active {
+    background: #282c34;
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,155 @@
+hr{
+    border: 0;
+    height: 1px;
+    margin: 0;
+    background: #333;
+    background-image: linear-gradient(to right, #77CBB9, #333, #77CBB9);
+}
+.list_box{
+    display: block;
+    
+    background-color:#77CBB9;
+    padding: 0;
+    border-color: #220C10;
+    border-style: solid;
+    border-width: 1px;
+}
+.content{
+
+    height: 6.5em;
+    padding: 0em;
+}
+.battle_info{
+
+    margin-left: 1em;
+    margin-right: 1em;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+.divider{
+
+    height: 6.5em;
+    width: 1em;
+    display: inline-block;
+    vertical-align: middle;
+    border-left:1px solid #38546d;
+}
+.winner_info{
+
+    width: 10em;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 1em;
+}
+b{
+    background-color:#77CBB9;
+}
+
+    .vs{
+        background-color:#77CBB9;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    span{
+        background-color:#77CBB9;
+        text-align: left;
+    }
+
+    .loser_info{
+        background-color:#77CBB9;
+        width: 10em;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        margin-left: 1em;
+        margin-right: 1em;
+        
+    }
+    .fame_info{
+        background-color:#77CBB9;
+        width: 20em;
+        margin: 0 auto;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: left;
+    }
+    .expand{
+        background-color:rgb(13, 90, 90);
+        border-top: 1px solid #220C10;
+        width: 32.5em;
+        display: table-cell;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+    }
+    .expand:hover{
+        text-decoration: none;
+        color: black;
+
+    }
+
+    .icon-running-solid:before{
+        margin-left: 0.1em; 
+        margin-right: 0.1em; 
+    }
+    .group_name{
+        background-color:#77CBB9;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: center;
+        white-space: nowrap;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .detail{
+        background-color:#77CBB9;
+        border-top: 1px solid #220C10;
+    }
+    .groups{
+        background-color:#77CBB9;
+        width: 16.25em;
+      height: 100%;
+      padding: 0;
+      vertical-align: top;
+    }
+
+    table {
+        text-align: left;
+        position: relative;
+        border-collapse: collapse; 
+      }
+      th, td {
+        padding: 0.25rem;
+      }
+      .losing_group {
+          background: red;
+          color: white;
+      }
+      .winning_group{
+          background: green;
+          color: white; 
+      }
+      .other_group{
+          background: grey;
+          color: white;
+
+      }
+      .winners{
+          align-items: top;
+          padding:0;
+          padding-top:0;
+      }
+      tr.green th {
+        background: green;
+        color: white;
+      }
+      th {
+        background: white;
+        position: sticky;
+        top: 0;
+        box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+      }
+
+
