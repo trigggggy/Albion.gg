@@ -2,10 +2,10 @@ const request = require('request');
 var mysql = require('mysql');
 
 var con = mysql.createConnection({
-	host	: "db.albion.gabia.io",
-	user	: "albion",
-	password: "sang091817",
-	database: "dbalbion"
+	host	: "do",
+	user	: "an",
+	password: "s7",
+	database: "dn"
 });
 
 con.connect(function(err) {
