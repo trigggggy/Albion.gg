@@ -1,15 +1,15 @@
 'user strict';
 var mysql      = require('mysql');
 var db_config={
-    host     : "db.albion.gabia.io",
+    host     : "-",
     user     : "albion",
-    password : "sang091817",
+    password : "-",
     database : "dbalbion"
 }
 var connection = mysql.createConnection({
-    host     : "db.albion.gabia.io",
+    host     : "-",
     user     : "albion",
-    password : "sang091817",
+    password : "-",
     database : "dbalbion"
 });
 
